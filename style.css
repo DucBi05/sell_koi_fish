@@ -22,6 +22,7 @@
     align-items: center;    
 }
 
+    
 .logo {
     position: absolute; 
     top: 0; 
@@ -174,7 +175,7 @@
     text-align: center;
     margin-bottom: 76px;
     font-size:32px;
-    color:#ffffff;
+    color:#010101;
 }
 
 
@@ -416,4 +417,41 @@
     height: 38px;
     margin-top:29px;
     color:#fff;
+}
+
+
+
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.product {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 0;
+  border-color: #333 transparent transparent transparent;
+}
+
+.arrow-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 5px; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    border-top: 8px solid black;
 }
